@@ -55,12 +55,10 @@ def test_function( ind ):
 
 
 if __name__ == "__main__":
-    #Parameters
     N = 10
     P = 50
     T = 2
 
-    #Generate population
     population = generate_population(P, N)
 
     parents = []
